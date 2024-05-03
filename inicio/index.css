@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.image--main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../inicio/imagens/papelDeParede.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.paginas{
+    display: flex;
+    justify-content: space-around; 
+    margin-left: 45%;
+    margin-top: 10%;
+    padding: 0;
+    
+}
+
+a {
+    color:#fbb03b;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.side {
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 50px; 
+    width: 100px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.side h1 {
+    color:rgba(255, 183, 0, 0.884); 
+    font-size: 60px; 
+    margin: 0; 
+    padding: 10px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pagina-livros {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 200px;
+    margin: 20px;
+    background-color: #0505059a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.253);
+    transition: box-shadow 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card button {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+}
+
+.card button:hover {
+    background-position: 100% 0;
+}
+
+.card button:focus {
+    outline: none;
+}
+
+.card button.bn27 {
+    background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+    );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.container-resenhas {
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens no topo */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.book-info {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Adicionando margem inferior */
+}
+
+.book-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.resenha-container {
+    flex: 2; /* Aumentando a proporção da resenha-container */
+    background-color: #ed6ea0;
+    padding: 20px;
+    color: black;
+    margin-bottom: 20px; /* Adicionando margem inferior */
+}
+
+.pagina-resenha {
+    margin-bottom: 10px;
+}
+
+#dicasGuias {
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.pagina-dicas-guias {
+    background-color: #ed6ea0;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    align-items: flex-start; /* Alinha o topo do card com o conteúdo de Dicas e Guias */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.card {
+    padding-right: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content p {
+    margin: 0; 
+    flex: 1;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    margin-left: 20px;
+}
+
+.social h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #fbb03b;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+}
+    
+    
+
+ 
