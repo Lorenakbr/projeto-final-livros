@@ -126,7 +126,7 @@ a {
 
 .container-resenhas {
     display: flex;
-    align-items: flex-start; /* Alinhar os itens no topo */
+    align-items: flex-start;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -134,7 +134,7 @@ a {
 .book-info {
     flex: 1;
     margin-right: 20px;
-    margin-bottom: 20px; /* Adicionando margem inferior */
+    margin-bottom: 20px;
 }
 
 .book-info img {
@@ -143,11 +143,11 @@ a {
 }
 
 .resenha-container {
-    flex: 2; /* Aumentando a proporção da resenha-container */
+    flex: 2; 
     background-color: #ed6ea0;
     padding: 20px;
     color: black;
-    margin-bottom: 20px; /* Adicionando margem inferior */
+    margin-bottom: 20px; 
 }
 
 .pagina-resenha {
@@ -170,7 +170,7 @@ a {
 
 .card-container {
     display: flex;
-    align-items: flex-start; /* Alinha o topo do card com o conteúdo de Dicas e Guias */
+    align-items: flex-start; 
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     max-width: 800px;
