@@ -16,7 +16,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url('../inicio/imagens/papelDeParede.jpg');
+    background-image: url('./inicio/imagens/papelDeParede.jpg');
     background-size: cover;
     background-position: center;
 }
